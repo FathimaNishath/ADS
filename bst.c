@@ -97,6 +97,7 @@ if(root->left == NULL)
 struct node* temp=root->right;
 free(root);
 return temp;
+}
 else if(root->right == NULL)
 {
 struct node* temp=root->left;
